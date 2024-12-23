@@ -1,0 +1,51 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 75%;
+    padding: 10px;
+    background-color: #ffffff;
+    overflow-x: auto;
+    color: #000000;
+}
+
+h1 {
+    font-size: 1.6rem;
+}
+
+#tree-container {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    padding-right: 150px;
+}
+
+.tree-node.root {
+    margin-left: 0;
+}
+
+.tree-node {
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.tree-node span {
+    display: inline-block;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin: 5px 0;
+    width: 350px;
+    white-space: pre-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+}
+
+.tree-node span:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.hidden {
+    display: none;
+}
